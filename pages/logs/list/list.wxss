@@ -1,0 +1,40 @@
+.tab-bar {
+  width: 100%;
+  height: 95rpx;
+  position: fixed;
+  bottom: 0;
+  background: #F6F6F7;
+  display: flex;
+  z-index: 999;
+}
+.section_item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rpx 0 0 0;
+}
+.section_item .section_image {
+  width: 55rpx;
+  height: 55rpx;
+}
+.section_item .section_title {
+  font-size: 20rpx;
+  font-weight:300;
+}
+.abc{
+  height: 90vh; /*高100视窗，这里写100%无效的*/
+  display: flex; /*flex布局方法*/
+  flex-direction: column;/*垂直布局*/
+  align-items: center;/*水平方向居中*/
+  justify-content: space-around;
+}
+text{
+  font-weight:bolder;
+  font-size: 75rpx;/*字体大小*/
+  font-family: kaiti;
+}
+button{
+  width: 80%;
+}

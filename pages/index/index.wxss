@@ -1,0 +1,21 @@
+.container{
+  height: 90vh; /*高100视窗，这里写100%无效的*/
+  display: flex; /*flex布局方法*/
+  flex-direction: column;/*垂直布局*/
+  align-items: center;/*水平方向居中*/
+}
+text{
+  font-style: oblique;
+  font-weight:bolder;
+  font-size: 75rpx;/*字体大小*/
+  font-family: fangsong;
+  color:blue;
+}
+button{
+  background: rgba(0,0,0,0);/*透明不显示*/
+}
+image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}

@@ -1,0 +1,91 @@
+.userinfo {      
+  display: flex;      
+  flex-direction: column;      
+  align-items: center;      
+  background:blue;       
+  width: 100%;     
+  height: 300rpx;
+}
+.userinfo-btn{      
+  margin-top: 50rpx;      
+  background: none !important;      
+  color: #fff !important;      
+  font-size: 40rpx;
+}
+.account-bg {      
+  width: 100%;      
+  height: 150rpx;
+}
+.userinfo-avatar {      
+  width: 108rpx;      
+  height: 108rpx;      
+  margin: 40rpx;      
+  border-radius: 50%;
+}
+.userinfo-nickname {      
+  color: #fff;
+}
+
+.order {      
+  display: flex;      
+  flex-direction: row;      
+  align-items: center;      
+  width: 100%;      
+  height: 90rpx;
+}
+.myorder-text {      
+  font-size: 34rpx;      
+  color: gray;      
+  margin: 20rpx;      
+  width: 40%;
+}
+.myorderlook-text {      
+  font-size: 32rpx;      
+  color: gray;      
+  position: relative;      
+  right: 20rpx;      
+  width: 60%;      
+  text-align: right;
+}
+.next-image {      
+  width: 20rpx;     
+  height: 25rpx;      
+  position: relative;      
+  right: 10rpx;
+}
+.navs {      
+  display: flex;
+}
+.nav-item {      
+  width: 25%;      
+  display: flex;      
+  align-items: center;      
+  flex-direction: column;      
+  padding: 20rpx;
+}
+.nav-item .nav-image {      
+  width: 55rpx;      
+  height: 55rpx;      
+  margin: 5rpx;
+}
+.nav-item text {      
+  margin-top: 20rpx;      
+  font-size: 28rpx;      
+  color: gray;
+}
+.a{
+  height: 90vh; /*高100视窗，这里写100%无效的*/
+  display: flex; /*flex布局方法*/
+  flex-direction: column;/*垂直布局*/
+  align-items: center;/*水平方向居中*/
+  justify-content:center;
+}
+.b{
+  width: 80%;
+  background: white;
+}
+.c{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}

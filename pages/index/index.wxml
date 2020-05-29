@@ -1,0 +1,15 @@
+<view class='container'>
+  <text>交警支队</text>
+  <span style="font-family:Comic Sans MS;font-size:18px;color:#333333;">
+    <button bindtap="a" style="width:100vw，heigth:100vw">
+      <image src="/images/jiaojing.png"></image>
+      <view>我是交警</view>
+    </button>
+  </span>
+  <span style="font-family:Comic Sans MS;font-size:18px;color:#333333;">
+    <button bindtap="b" style="width:100vw，heigth:100vw">
+    <image src='/images/shiming.jpg'></image>
+    <view>我是市民</view>
+    </button>
+  </span>
+</view>     

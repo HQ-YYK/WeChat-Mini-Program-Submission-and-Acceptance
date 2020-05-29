@@ -1,0 +1,14 @@
+<view class="tab-bar">   
+  <block wx:for="{{tabBar}}" wx:key="{{tabBar.pagePath}}">    
+    <view class="section_item" bindtap="navigateDetail" data-url="{{item.pagePath}}">  
+        <image class="section_image" src="{{item.iconPath}}"></image>  
+        <text class="section_title">{{item.text}}</text>
+    </view>
+  </block> 
+</view>
+<view class="abc">
+  <text>民意收集</text>
+  <view>
+    <button>批量导入</button>
+  </view>
+</view>
